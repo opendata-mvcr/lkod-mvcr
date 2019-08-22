@@ -1,2 +1,2 @@
-# lkod-mvcr
-Data lokálního katalogu otevřených dat MVČR
+# Lokální katalog MVČR
+Metadata lokálního katalogu otevřených dat MVČR v JSON-LD
