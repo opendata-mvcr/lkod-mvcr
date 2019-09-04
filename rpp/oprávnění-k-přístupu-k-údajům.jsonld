@@ -1,0 +1,122 @@
+{
+  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/oprávnění-k-přístupu-k-údajům",
+  "@type": [
+    "http://www.w3.org/ns/dcat#Dataset",
+    "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář"
+  ],
+  "http://purl.org/dc/terms/title": {
+    "@language": "cs",
+    "@value": "Oprávnění k přístupu k údajům"
+  },
+  "http://purl.org/dc/terms/description": {
+    "@language": "cs",
+    "@value": "Oprávnění fyzické osoby čerpat při výkonu agendy údaje v základních registrech nebo údaje v agendových informačních systémech evidovaná v Registru práv a povinností ve smyslu § 51 zákona č. 111/2009 Sb. o základních registrech. Obsah je též dostupný prostřednictvím API (SPARQL endpoint) https://rpp-opendata.egon.gov.cz/odrpp/sparql ."
+  },
+  "http://www.w3.org/ns/dcat#keyword": [
+    {
+      "@language": "cs",
+      "@value": "registr práv a povinností"
+    },
+    {
+      "@language": "cs",
+      "@value": "údaj"
+    },
+    {
+      "@language": "cs",
+      "@value": "oprávnění k přístupu"
+    }
+  ],
+  "http://www.w3.org/ns/dcat#distribution": [
+    {
+      "@type": [
+        "http://www.w3.org/ns/dcat#Distribution"
+      ],
+      "http://www.w3.org/ns/dcat#downloadURL": {
+        "@id": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/opravneni_k_udajum.json"
+      },
+      "http://www.w3.org/ns/dcat#mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/json"
+      },
+      "http://purl.org/dc/terms/format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
+      },
+      "https://data.gov.cz/slovník/podmínky-užití/specifikace": {
+        "@type": "https://data.gov.cz/slovník/podmínky-užití/Specifikace",
+        "https://data.gov.cz/slovník/podmínky-užití/autorské-dílo": {
+          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"
+        },
+        "https://data.gov.cz/slovník/podmínky-užití/databáze-jako-autorské-dílo": {
+          "@id": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"
+        },
+        "https://data.gov.cz/slovník/podmínky-užití/databáze-chráněná-zvláštními-právy": {
+          "@id": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"
+        },
+        "https://data.gov.cz/slovník/podmínky-užití/osobní-údaje": {
+          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+        }
+      },
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://data.gov.cz/otevřené-formální-normy/registr-práv-a-povinností/oprávnění-k-přístupu-k-údajům/2019-04-03/oprávnění-k-přístupu-k-údajům.schema.json"
+      }
+    },
+    {
+      "@type": [
+        "http://www.w3.org/ns/dcat#Distribution"
+      ],
+      "http://www.w3.org/ns/dcat#downloadURL": {
+        "@id": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/opravneni_k_udajum.jsonld"
+      },
+      "http://www.w3.org/ns/dcat#mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/ld+json"
+      },
+      "http://purl.org/dc/terms/format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+      },
+      "https://data.gov.cz/slovník/podmínky-užití/specifikace": {
+        "@type": "https://data.gov.cz/slovník/podmínky-užití/Specifikace",
+        "https://data.gov.cz/slovník/podmínky-užití/autorské-dílo": {
+          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"
+        },
+        "https://data.gov.cz/slovník/podmínky-užití/databáze-jako-autorské-dílo": {
+          "@id": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"
+        },
+        "https://data.gov.cz/slovník/podmínky-užití/databáze-chráněná-zvláštními-právy": {
+          "@id": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"
+        },
+        "https://data.gov.cz/slovník/podmínky-užití/osobní-údaje": {
+          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+        }
+      },
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://data.gov.cz/otevřené-formální-normy/registr-práv-a-povinností/oprávnění-k-přístupu-k-údajům/2019-04-03/oprávnění-k-přístupu-k-údajům.schema.json"
+      }
+    }
+  ],
+  "http://purl.org/dc/terms/accrualPeriodicity": {
+    "@id": "http://publications.europa.eu/resource/authority/frequency/DAILY"
+  },
+  "http://purl.org/dc/terms/spatial": {
+    "@id": "https://linked.cuzk.cz/resource/ruian/stat/1"
+  },
+  "http://xmlns.com/foaf/0.1/page": {
+    "@id": "https://data.gov.cz/otevřené-formální-normy/registr-práv-a-povinností/oprávnění-k-přístupu-k-údajům/2019-04-03/"
+  },
+  "http://www.w3.org/ns/dcat#theme": [
+    {
+      "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+    },
+    {
+      "@id": "http://eurovoc.europa.eu/2584"
+    }
+  ],
+  "http://www.w3.org/ns/dcat#contactPoint": {
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": {
+      "@language": "cs",
+      "@value": "Help desk správy základních registrů (SZR)"
+    },
+    "http://www.w3.org/2006/vcard/ns#hasEmail": "podpora@szrcr.cz"
+  }
+}
