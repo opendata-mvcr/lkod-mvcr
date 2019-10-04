@@ -56,7 +56,7 @@
         }
       },
       "http://purl.org/dc/terms/conformsTo": {
-        "@id": "https://data.gov.cz/otevřené-formální-normy/registr-práv-a-povinností/převod-úkonů-v-rámci-působnosti/2019-04-03/převod-úkonů-v-rámci-působnosti.schema.json"
+        "@id": "https://ofn.gov.cz/registr-práv-a-povinností/převod-úkonů-v-rámci-působnosti/2019-04-03/převod-úkonů-v-rámci-působnosti.schema.json"
       }
     },
     {
@@ -88,7 +88,7 @@
         }
       },
       "http://purl.org/dc/terms/conformsTo": {
-        "@id": "https://data.gov.cz/otevřené-formální-normy/registr-práv-a-povinností/převod-úkonů-v-rámci-působnosti/2019-04-03/převod-úkonů-v-rámci-působnosti.schema.json"
+        "@id": "https://ofn.gov.cz/registr-práv-a-povinností/převod-úkonů-v-rámci-působnosti/2019-04-03/převod-úkonů-v-rámci-působnosti.schema.json"
       }
     }
   ],
@@ -99,7 +99,7 @@
     "@id": "https://linked.cuzk.cz/resource/ruian/stat/1"
   },
   "http://xmlns.com/foaf/0.1/page": {
-    "@id": "https://data.gov.cz/otevřené-formální-normy/registr-práv-a-povinností/převod-úkonů-v-rámci-působnosti/2019-04-03/"
+    "@id": "https://ofn.gov.cz/registr-práv-a-povinností/převod-úkonů-v-rámci-působnosti/2019-04-03/"
   },
   "http://www.w3.org/ns/dcat#theme": [
     {
