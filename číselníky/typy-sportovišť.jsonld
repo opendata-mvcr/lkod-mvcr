@@ -1,5 +1,5 @@
 {
-  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/sportoviště",
+  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-sportovišť",
   "@type": [
     "http://www.w3.org/ns/dcat#Dataset",
     "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář"
