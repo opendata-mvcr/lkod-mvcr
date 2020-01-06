@@ -6,11 +6,11 @@
   ],
   "http://purl.org/dc/terms/title": {
     "@language": "cs",
-    "@value": "Číselník pro témata aktualit"
+    "@value": "Číselník pro témata událostí"
   },
   "http://purl.org/dc/terms/description": {
     "@language": "cs",
-    "@value": "Tento číselník obsahuje témata aktualit, které jsou použity zejména v otevřené formální normě Aktuality, https://ofn.gov.cz/aktuality"
+    "@value": "Tento číselník obsahuje témata událostí, které jsou použity zejména v otevřené formální normě Aktuality, https://ofn.gov.cz/aktuality"
   },
   "http://www.w3.org/ns/dcat#keyword": [
     {
@@ -27,6 +27,10 @@
     },
     {
       "@language": "cs",
+      "@value": "událost"
+    },
+    {
+      "@language": "cs",
       "@value": "téma"
     }
   ],
@@ -36,7 +40,7 @@
         "http://www.w3.org/ns/dcat#Distribution"
       ],
       "http://www.w3.org/ns/dcat#downloadURL": {
-        "@id": "https://data.mvcr.gov.cz/soubory/číselníky/témata.ttl"
+        "@id": "https://data.mvcr.gov.cz/soubory/číselníky/témata-událostí.ttl"
       },
       "http://www.w3.org/ns/dcat#mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/text/turtle"

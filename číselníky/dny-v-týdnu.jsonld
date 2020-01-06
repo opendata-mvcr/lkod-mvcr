@@ -36,7 +36,7 @@
         "http://www.w3.org/ns/dcat#Distribution"
       ],
       "http://www.w3.org/ns/dcat#downloadURL": {
-        "@id": "https://data.mvcr.gov.cz/soubory/číselníky/témata.ttl"
+        "@id": "https://data.mvcr.gov.cz/soubory/číselníky/dny-v-týdnu.ttl"
       },
       "http://www.w3.org/ns/dcat#mediaType": {
         "@id": "http://www.iana.org/assignments/media-types/text/turtle"
