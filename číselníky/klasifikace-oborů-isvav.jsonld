@@ -10,7 +10,7 @@
   },
   "http://purl.org/dc/terms/description": {
     "@language": "cs",
-    "@value": "Tento číselník obsahuje klasifikaci oborů z informačního systému výzkumu a vývoje ISVaV."
+    "@value": "Tento číselník obsahuje klasifikaci oborů z informačního systému výzkumu a vývoje ISVaV. Zdrojem dat je https://www.vyzkum.cz/FrontClanek.aspx?idsekce=1374."
   },
   "http://www.w3.org/ns/dcat#keyword": [
     {

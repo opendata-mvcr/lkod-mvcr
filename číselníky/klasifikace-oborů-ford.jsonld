@@ -10,7 +10,7 @@
   },
   "http://purl.org/dc/terms/description": {
     "@language": "cs",
-    "@value": "Tento číselník obsahuje klasifikaci oborů FORD z OECD Frascati Manual."
+    "@value": "Tento číselník obsahuje klasifikaci oborů FORD z OECD Frascati Manual. Zdrojem dat je dokument \"Číselník oborů M17+ (Aktualizovaný ke dni 7.12.2017)\" z https://www.vyzkum.cz/FrontClanek.aspx?idsekce=799796&ad=1&attid=847693."
   },
   "http://www.w3.org/ns/dcat#keyword": [
     {
