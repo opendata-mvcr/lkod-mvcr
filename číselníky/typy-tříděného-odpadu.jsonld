@@ -78,8 +78,8 @@
     ],
     "http://www.w3.org/2006/vcard/ns#fn": {
       "@language": "cs",
-      "@value": "Martin Dvořík"
+      "@value": "Kontakt pro otevřená data"
     },
-    "http://www.w3.org/2006/vcard/ns#hasEmail": "dvorka.martini92@gmail.com"
+    "http://www.w3.org/2006/vcard/ns#hasEmail": "otevrenadata@mvcr.cz"
   }
 }
