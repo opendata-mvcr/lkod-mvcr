@@ -78,5 +78,11 @@
     {
       "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
     }
-  ]
+  ],
+    "http://www.w3.org/2006/vcard/ns#fn": {
+      "@language": "cs",
+      "@value": "Kontakt pro otevřená data"
+    },
+    "http://www.w3.org/2006/vcard/ns#hasEmail": "otevrenadata@mvcr.cz"
+  }
 }
