@@ -1,4 +1,5 @@
 {
+  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů",
   "@type": [
     "http://www.w3.org/ns/dcat#Dataset",
     "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář"
