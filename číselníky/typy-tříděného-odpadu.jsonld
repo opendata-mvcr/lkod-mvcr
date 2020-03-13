@@ -1,37 +1,33 @@
 {
-  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/témata-událostí",
+  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů",
   "@type": [
     "http://www.w3.org/ns/dcat#Dataset",
     "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář"
   ],
   "http://purl.org/dc/terms/title": {
     "@language": "cs",
-    "@value": "Číselník pro témata událostí"
+    "@value": "Číselník typů tříděného odpadu"
   },
   "http://purl.org/dc/terms/description": {
     "@language": "cs",
-    "@value": "Tento číselník obsahuje témata událostí, které jsou použity zejména v otevřené formální normě Aktuality, https://ofn.gov.cz/aktuality"
+    "@value": "Číselník obsahuje typy tříděného odpadu, kód a jejich anglický ekvivalent."
   },
   "http://www.w3.org/ns/dcat#keyword": [
     {
       "@language": "cs",
+      "@value": "odpad"
+    },
+    {
+      "@language": "cs",
+      "@value": "typ odpadu"
+    },
+    {
+      "@language": "cs",
+      "@value": "třidění"
+    },
+    {
+      "@language": "cs",
       "@value": "číselník"
-    },
-    {
-      "@language": "cs",
-      "@value": "OFN"
-    },
-    {
-      "@language": "cs",
-      "@value": "aktualita"
-    },
-    {
-      "@language": "cs",
-      "@value": "událost"
-    },
-    {
-      "@language": "cs",
-      "@value": "téma"
     }
   ],
   "http://www.w3.org/ns/dcat#distribution": [
@@ -40,13 +36,13 @@
         "http://www.w3.org/ns/dcat#Distribution"
       ],
       "http://www.w3.org/ns/dcat#downloadURL": {
-        "@id": "https://data.mvcr.gov.cz/soubory/číselníky/témata-událostí.ttl"
+        "@id": "https://nesmysl.cz"
       },
       "http://www.w3.org/ns/dcat#mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/text/turtle"
+        "@id": "http://www.iana.org/assignments/media-types/application/json"
       },
       "http://purl.org/dc/terms/format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
       },
       "https://data.gov.cz/slovník/podmínky-užití/specifikace": {
         "@type": "https://data.gov.cz/slovník/podmínky-užití/Specifikace",
@@ -62,27 +58,24 @@
         "https://data.gov.cz/slovník/podmínky-užití/osobní-údaje": {
           "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
         }
-      },
-      "http://purl.org/dc/terms/title": {
-        "@language": "cs",
-        "@value": "Číselník v RDF Turtle"
       }
     }
   ],
   "http://purl.org/dc/terms/accrualPeriodicity": {
-    "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
+    "@id": "http://publications.europa.eu/resource/authority/frequency/ANNUAL"
   },
   "http://purl.org/dc/terms/spatial": {
     "@id": "https://linked.cuzk.cz/resource/ruian/stat/1"
   },
-  "http://xmlns.com/foaf/0.1/page": {
-    "@id": "https://github.com/opendata-mvcr/ciselniky"
-  },
   "http://www.w3.org/ns/dcat#theme": [
     {
-      "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+      "@id": "http://publications.europa.eu/resource/authority/data-theme/ENVI"
     }
   ],
+  "http://www.w3.org/ns/dcat#contactPoint": {
+    "@type": [
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
     "http://www.w3.org/2006/vcard/ns#fn": {
       "@language": "cs",
       "@value": "Kontakt pro otevřená data"
