@@ -69,7 +69,7 @@
     }
   ],
   "http://purl.org/dc/terms/accrualPeriodicity": {
-    "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+    "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
   },
   "http://purl.org/dc/terms/spatial": {
     "@id": "https://linked.cuzk.cz/resource/ruian/stat/1"
