@@ -1,5 +1,5 @@
 {
-  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/jíná-časová-specifikace",
+  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/jiná-časová-specifikace",
   "@type": [
     "http://www.w3.org/ns/dcat#Dataset",
     "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář"
@@ -88,5 +88,4 @@
       "@value": "Kontakt pro otevřená data"
     },
     "http://www.w3.org/2006/vcard/ns#hasEmail": "otevrenadata@mvcr.cz"
-  }
 }
