@@ -1,125 +1,105 @@
 {
-  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/subjekty-a-objekty-údajů-a-jejich-údaje",
-  "@type": [
-    "http://www.w3.org/ns/dcat#Dataset"
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/subjekty-a-objekty-údajů-a-jejich-údaje",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Subjekty a objekty údajů a jejich údaje"
+  },
+  "popis": {
+    "cs": "Typy subjektů a objektů práva a typy údajů o nich vedených v agendách evidované v Registru práv a povinností ve smyslu § 51 zákona č. 111/2009 Sb. o základních registrech. Obsah je též dostupný prostřednictvím API (SPARQL endpoint) https://rpp-opendata.egon.gov.cz/odrpp/sparql ."
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
   ],
-  "http://purl.org/dc/terms/title": {
-    "@language": "cs",
-    "@value": "Subjekty a objekty údajů a jejich údaje"
-  },
-  "http://purl.org/dc/terms/description": {
-    "@language": "cs",
-    "@value": "Typy subjektů a objektů práva a typy údajů o nich vedených v agendách evidované v Registru práv a povinností ve smyslu § 51 zákona č. 111/2009 Sb. o základních registrech. Obsah je též dostupný prostřednictvím API (SPARQL endpoint) https://rpp-opendata.egon.gov.cz/odrpp/sparql ."
-  },
-  "http://www.w3.org/ns/dcat#keyword": [
-    {
-      "@language": "cs",
-      "@value": "registr práv a povinností"
-    },
-    {
-      "@language": "cs",
-      "@value": "údaj"
-    },
-    {
-      "@language": "cs",
-      "@value": "subjekt práva"
-    },
-    {
-      "@language": "cs",
-      "@value": "objekt práva"
-    }
-  ],
-  "http://www.w3.org/ns/dcat#distribution": [
-    {
-      "@type": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "http://www.w3.org/ns/dcat#downloadURL": {
-        "@id": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/udaje.json"
-      },
-      "http://www.w3.org/ns/dcat#mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/json"
-      },
-      "http://purl.org/dc/terms/format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
-      },
-      "https://data.gov.cz/slovník/podmínky-užití/specifikace": {
-        "@type": "https://data.gov.cz/slovník/podmínky-užití/Specifikace",
-        "https://data.gov.cz/slovník/podmínky-užití/autorské-dílo": {
-          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"
-        },
-        "https://data.gov.cz/slovník/podmínky-užití/databáze-jako-autorské-dílo": {
-          "@id": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"
-        },
-        "https://data.gov.cz/slovník/podmínky-užití/databáze-chráněná-zvláštními-právy": {
-          "@id": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"
-        },
-        "https://data.gov.cz/slovník/podmínky-užití/osobní-údaje": {
-          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-        }
-      },
-      "http://purl.org/dc/terms/conformsTo": {
-        "@id": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2019-04-03/údaje.schema.json"
-      }
-    },
-    {
-      "@type": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "http://www.w3.org/ns/dcat#downloadURL": {
-        "@id": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/udaje.jsonld"
-      },
-      "http://www.w3.org/ns/dcat#mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/application/ld+json"
-      },
-      "http://purl.org/dc/terms/format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
-      },
-      "https://data.gov.cz/slovník/podmínky-užití/specifikace": {
-        "@type": "https://data.gov.cz/slovník/podmínky-užití/Specifikace",
-        "https://data.gov.cz/slovník/podmínky-užití/autorské-dílo": {
-          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"
-        },
-        "https://data.gov.cz/slovník/podmínky-užití/databáze-jako-autorské-dílo": {
-          "@id": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"
-        },
-        "https://data.gov.cz/slovník/podmínky-užití/databáze-chráněná-zvláštními-právy": {
-          "@id": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"
-        },
-        "https://data.gov.cz/slovník/podmínky-užití/osobní-údaje": {
-          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-        }
-      },
-      "http://purl.org/dc/terms/conformsTo": {
-        "@id": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2019-04-03/údaje.schema.json"
-      }
-    }
-  ],
-  "http://purl.org/dc/terms/accrualPeriodicity": {
-    "@id": "http://publications.europa.eu/resource/authority/frequency/DAILY"
-  },
-  "http://purl.org/dc/terms/spatial": {
-    "@id": "https://linked.cuzk.cz/resource/ruian/stat/1"
-  },
-  "http://xmlns.com/foaf/0.1/page": {
-    "@id": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2019-04-03/"
-  },
-  "http://www.w3.org/ns/dcat#theme": [
-    {
-      "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
-    },
-    {
-      "@id": "http://eurovoc.europa.eu/2584"
-    }
-  ],
-  "http://www.w3.org/ns/dcat#contactPoint": {
-    "@type": [
-      "http://www.w3.org/2006/vcard/ns#Organization"
+  "geografické_území": [],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "registr práv a povinností",
+      "údaj",
+      "subjekt práva",
+      "objekt práva"
     ],
-    "http://www.w3.org/2006/vcard/ns#fn": {
-      "@language": "cs",
-      "@value": "Help desk správy základních registrů (SZR)"
+    "en": []
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
+  "dokumentace": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2019-04-03/",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/2584"
+  ],
+  "specifikace": [
+    "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2019-04-03/"
+  ],
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Help desk správy základních registrů (SZR)"
     },
-    "http://www.w3.org/2006/vcard/ns#hasEmail": "podpora@szrcr.cz"
-  }
+    "e-mail": "mailto:podpora@szrcr.cz"
+  },
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/subjekty-a-objekty-údajů-a-jejich-údaje/distribuce/1",
+      "soubor_ke_stažení": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/udaje.json",
+      "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/udaje.json",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/json",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/JSON",
+      "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2019-04-03/údaje.schema.json",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      }
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/subjekty-a-objekty-údajů-a-jejich-údaje/distribuce/2",
+      "soubor_ke_stažení": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/udaje.jsonld",
+      "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/udaje.jsonld",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+      "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2019-04-03/údaje.schema.json",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      }
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/subjekty-a-objekty-údajů-a-jejich-údaje/distribuce/3",
+      "název": {
+        "cs": "SPARQL Endpoint",
+        "en": "SPARQL Endpoint"
+      },
+      "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/sparql/",
+      "přístupová_služba": {
+        "typ": "Datová služba",
+        "přístupový_bod": "https://rpp-opendata.egon.gov.cz/odrpp/sparql/",
+        "popis_přístupového_bodu": "https://rpp-opendata.egon.gov.cz/odrpp/sparql/",
+        "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/subjekty-a-objekty-údajů-a-jejich-údaje/distribuce/3/přístupová-služba",
+        "název": {
+          "cs": "SPARQL Endpoint",
+          "en": "SPARQL Endpoint"
+        },
+        "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/subjekty-a-objekty-údajů-a-jejich-údaje"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      }
+    }
+  ]
 }
