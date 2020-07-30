@@ -7,8 +7,7 @@ Přidat datovou sadu lze vyplněním [formuláře v NKOD](https://data.gov.cz/fo
 {
   "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/czechpoint/2007",
   "@type": [
-    "http://www.w3.org/ns/dcat#Dataset",
-    "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář"
+    "http://www.w3.org/ns/dcat#Dataset"
   ],
 ```
 a přidáním výsledného `.jsonld` souboru do tohoto repozitáře.
