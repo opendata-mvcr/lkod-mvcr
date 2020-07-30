@@ -30,6 +30,9 @@
   ],
   "kontaktní_bod": {
     "typ": "Organizace",
+    "jméno": {
+      "cs": "Kontakt pro otevřená data"
+    },
     "e-mail": "mailto:otevrenadata@mvcr.cz"
   },
   "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
