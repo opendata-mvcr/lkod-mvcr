@@ -1,99 +1,57 @@
 {
-  "@id": "https://data.mvcr.gov.cz/zdroj/datové-sady/czechpoint/2007",
-  "@type": [
-    "http://www.w3.org/ns/dcat#Dataset"
-  ],
-  "http://purl.org/dc/terms/title": {
-    "@language": "cs",
-    "@value": "Přístupy k agendám CzechPOINT - 2007"
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/czechpoint/2007",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Přístupy k agendám CzechPOINT - 2007"
   },
-  "http://purl.org/dc/terms/description": {
-    "@language": "cs",
-    "@value": "Záznamy o jednotlivých výpisech z míst CzechPOINT. Pro každý výpis záznam obsahuje: číslo, datum, čas a typ výpisu a zkratku, název a typ místa CzechPOINT, na kterém byl výpis vydán. U advokátů, notářů a exekutorů byly údaje anonymizovány."
+  "popis": {
+    "cs": "Záznamy o jednotlivých výpisech z míst CzechPOINT. Pro každý výpis záznam obsahuje: číslo, datum, čas a typ výpisu a zkratku, název a typ místa CzechPOINT, na kterém byl výpis vydán. U advokátů, notářů a exekutorů byly údaje anonymizovány."
   },
-  "http://www.w3.org/ns/dcat#keyword": [
-    {
-      "@language": "cs",
-      "@value": "agendy"
-    },
-    {
-      "@language": "cs",
-      "@value": "výpis"
-    },
-    {
-      "@language": "cs",
-      "@value": "CzechPOINT"
-    }
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
   ],
-  "http://www.w3.org/ns/dcat#distribution": [
+  "geografické_území": [],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "agendy",
+      "výpis",
+      "CzechPOINT"
+    ],
+    "en": []
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/NEVER",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/6894"
+  ],
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "e-mail": "mailto:otevrenadata@mvcr.cz"
+  },
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+  "distribuce": [
     {
-      "@type": [
-        "http://www.w3.org/ns/dcat#Distribution"
-      ],
-      "http://www.w3.org/ns/dcat#downloadURL": {
-        "@id": "https://data.mvcr.gov.cz/soubory/czechpoint/2007.csv"
+      "typ": "Distribuce",
+      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/czechpoint/2007/distribuce/1",
+      "název": {
+        "cs": "Výpisy za rok 2007"
       },
-      "http://www.w3.org/ns/dcat#mediaType": {
-        "@id": "http://www.iana.org/assignments/media-types/text/csv"
-      },
-      "http://purl.org/dc/terms/format": {
-        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
-      },
-      "https://data.gov.cz/slovník/podmínky-užití/specifikace": {
-        "@type": "https://data.gov.cz/slovník/podmínky-užití/Specifikace",
-        "https://data.gov.cz/slovník/podmínky-užití/autorské-dílo": {
-          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/"
-        },
-        "https://data.gov.cz/slovník/podmínky-užití/databáze-jako-autorské-dílo": {
-          "@id": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/"
-        },
-        "https://data.gov.cz/slovník/podmínky-užití/databáze-chráněná-zvláštními-právy": {
-          "@id": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/"
-        },
-        "https://data.gov.cz/slovník/podmínky-užití/osobní-údaje": {
-          "@id": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-        }
-      },
-      "http://purl.org/dc/terms/conformsTo": {
-        "@id": "https://data.mvcr.gov.cz/soubory/czechpoint/2007.json"
-      },
-      "http://purl.org/dc/terms/title": {
-        "@language": "cs",
-        "@value": "Výpisy za rok 2007"
+      "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/czechpoint/2007.csv",
+      "přístupové_url": "https://data.mvcr.gov.cz/soubory/czechpoint/2007.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+      "schéma": "https://data.mvcr.gov.cz/soubory/czechpoint/2007.json",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
       }
     }
-  ],
-  "http://purl.org/dc/terms/accrualPeriodicity": {
-    "@id": "http://publications.europa.eu/resource/authority/frequency/NEVER"
-  },
-  "http://purl.org/dc/terms/spatial": {
-    "@id": "https://linked.cuzk.cz/resource/ruian/stat/1"
-  },
-  "http://www.w3.org/ns/dcat#theme": [
-    {
-      "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
-    },
-    {
-      "@id": "http://eurovoc.europa.eu/6894"
-    }
-  ],
-  "http://purl.org/dc/terms/temporal": {
-    "@type": [
-      "http://purl.org/dc/terms/PeriodOfTime"
-    ],
-    "http://schema.org/startDate": {
-      "@type": "http://www.w3.org/2001/XMLSchema#date",
-      "@value": "2007-03-26"
-    },
-    "http://schema.org/endDate": {
-      "@type": "http://www.w3.org/2001/XMLSchema#date",
-      "@value": "2008-01-01"
-    }
-  },
-  "http://www.w3.org/ns/dcat#contactPoint": {
-    "@type": [
-      "http://www.w3.org/2006/vcard/ns#Organization"
-    ],
-    "http://www.w3.org/2006/vcard/ns#hasEmail": "otevrenadata@mvcr.cz"
-  }
+  ]
 }
