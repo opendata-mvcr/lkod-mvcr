@@ -66,7 +66,8 @@
 		"typ": "Distribuce",
 		"iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/jiná-časová-specifikace/distribuce/2",
 		"název": {
-		  "cs": "SPARQL Endpoint"
+		  "cs": "SPARQL Endpoint",
+			"en": "SPARQL Endpoint"
 		},
 		"přístupové_url": "https://data.mvcr.gov.cz/sparql",
 		"přístupová_služba": {
