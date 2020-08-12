@@ -25,7 +25,7 @@
         ]
     },
     "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
-    "dokumentace": "https://github.com/opendata-mvcr/ciselniky",
+    "dokumentace": "https://data.mvcr.gov.cz/soubory/číselníky/kategorie-územní-ochrany.html",
     "téma": [
         "http://publications.europa.eu/resource/authority/data-theme/AGRI"
     ],
@@ -119,6 +119,25 @@
             "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
             "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
             "schéma": "https://data.mvcr.gov.cz/soubory/číselníky/kategorie-územní-ochrany.csv-metadata.json",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/kategorie-územní-ochrany/distribuce/5",
+            "název": {
+                "cs": "Číselník v HTML+RDFa",
+                "en": "Codelist in HTML+RDFa"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/kategorie-územní-ochrany.html",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/kategorie-územní-ochrany.html",
+            "typ_média": "http://www.iana.org/assignments/media-types/text/html",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDFA",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
