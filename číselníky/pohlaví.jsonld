@@ -1,90 +1,129 @@
 {
-	"@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-	"iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví",
-	"typ": "Datová sada",
-	"název": {
-	  "cs": "Číselník pro pohlaví"
-	},
-	"popis": {
-	  "cs": "Tento číselník obsahuje pohlaví. Jejich identifikátory IRI by měly být používány pro jednoznačnou identifikaci pohlaví."
-	},
-	"prvek_rúian": [
-	  "https://linked.cuzk.cz/resource/ruian/stat/1"
-	],
-	"geografické_území": [],
-	"prostorové_pokrytí": [],
-	"klíčové_slovo": {
-	  "cs": [
-		"číselník",
-		"pohlaví"
-	  ],
-	  "en": [
-		"codelist"
-	  ]
-	},
-	"periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
-	"dokumentace": "https://github.com/opendata-mvcr/ciselniky",
-	"téma": [
-	  "http://publications.europa.eu/resource/authority/data-theme/GOVE"
-	],
-	"koncept_euroVoc": [],
-	"specifikace": [
-	  "https://ofn.gov.cz/číselníky/"
-	],
-	"kontaktní_bod": {
-	  "typ": "Organizace",
-	  "jméno": {
-		"cs": "Kontakt pro otevřená data"
-	  },
-	  "e-mail": "mailto:otevrenadata@mvcr.cz"
-	},
-	"poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
-	"distribuce": [
-	  {
-		"typ": "Distribuce",
-		"iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví/distribuce/1",
-		"název": {
-			"cs": "Číselník v RDF Turtle",
-			"en": "Codelist in RDF Turtle"
-		  },
-		"soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pohlaví.ttl",
-		"přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pohlaví.ttl",
-		"typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
-		"formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
-		"podmínky_užití": {
-		  "typ": "Specifikace podmínek užití",
-		  "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
-		  "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
-		  "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
-		  "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-		}
-	  },
-	  {
-		"typ": "Distribuce",
-		"iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví/distribuce/2",
-		"název": {
-		  "cs": "SPARQL Endpoint",
-		  "en": "SPARQL Endpoint"
-		},
-		"přístupové_url": "https://data.mvcr.gov.cz/sparql",
-		"přístupová_služba": {
-		  "typ": "Datová služba",
-		  "přístupový_bod": "https://data.mvcr.gov.cz/sparql",
-		  "popis_přístupového_bodu": "https://data.mvcr.gov.cz/sparql",
-		  "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví/distribuce/2/přístupová-služba",
-		  "název": {
-			"cs": "SPARQL Endpoint",
-			"en": "SPARQL Endpoint"
-		  },
-		  "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví"
-		},
-		"podmínky_užití": {
-		  "typ": "Specifikace podmínek užití",
-		  "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
-		  "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
-		  "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
-		  "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-		}
-	  }
-	]
-  }
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví",
+    "typ": "Datová sada",
+    "název": {
+        "cs": "Číselník pro pohlaví"
+    },
+    "popis": {
+        "cs": "Tento číselník obsahuje pohlaví. Jejich identifikátory IRI by měly být používány pro jednoznačnou identifikaci pohlaví."
+    },
+    "prvek_rúian": [
+        "https://linked.cuzk.cz/resource/ruian/stat/1"
+    ],
+    "geografické_území": [],
+    "prostorové_pokrytí": [],
+    "klíčové_slovo": {
+        "cs": [
+            "číselník",
+            "pohlaví"
+        ],
+        "en": [
+            "codelist"
+        ]
+    },
+    "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+    "dokumentace": "https://github.com/opendata-mvcr/ciselniky",
+    "téma": [
+        "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+    ],
+    "koncept_euroVoc": [],
+    "specifikace": [
+        "https://ofn.gov.cz/číselníky/"
+    ],
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+            "cs": "Kontakt pro otevřená data"
+        },
+        "e-mail": "mailto:otevrenadata@mvcr.cz"
+    },
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+    "distribuce": [
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví/distribuce/1",
+            "název": {
+                "cs": "Číselník v RDF Turtle",
+                "en": "Codelist in RDF Turtle"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pohlaví.ttl",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pohlaví.ttl",
+            "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví/distribuce/2",
+            "název": {
+                "cs": "SPARQL Endpoint",
+                "en": "SPARQL Endpoint"
+            },
+            "přístupové_url": "https://data.mvcr.gov.cz/sparql",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "přístupový_bod": "https://data.mvcr.gov.cz/sparql",
+                "popis_přístupového_bodu": "https://data.mvcr.gov.cz/sparql",
+                "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví/distribuce/2/přístupová-služba",
+                "název": {
+                    "cs": "SPARQL Endpoint",
+                    "en": "SPARQL Endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví/distribuce/3",
+            "název": {
+                "cs": "Číselník v JSON-LD",
+                "en": "Codelist in JSON-LD"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pohlaví.jsonld",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pohlaví.jsonld",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pohlaví/distribuce/4",
+            "název": {
+                "cs": "Číselník v CSV",
+                "en": "Codelist in CSV"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pohlaví.csv",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pohlaví.csv",
+            "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+            "schéma": "https://data.mvcr.gov.cz/soubory/číselníky/pohlaví.csv-metadata.json",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        }
+    ]
+}

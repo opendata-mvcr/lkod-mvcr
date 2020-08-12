@@ -1,105 +1,144 @@
 {
-  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-  "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách",
-  "typ": "Datová sada",
-  "název": {
-    "cs": "Číselník akademických pozic na vysokých školách",
-    "en": "Academic positions at universities"
-  },
-  "popis": {
-    "cs": "Tento číselník obsahuje akademické pozice na univerzitách.",
-    "en": "This codelist contains positions at universities."
-  },
-  "prvek_rúian": [
-    "https://linked.cuzk.cz/resource/ruian/stat/1"
-  ],
-  "geografické_území": [],
-  "prostorové_pokrytí": [],
-  "klíčové_slovo": {
-    "cs": [
-      "číselník",
-      "pozice",
-      "výzkum",
-      "věda",
-      "vysoká škola"
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách",
+    "typ": "Datová sada",
+    "název": {
+        "cs": "Číselník akademických pozic na vysokých školách",
+        "en": "Academic positions at universities"
+    },
+    "popis": {
+        "cs": "Tento číselník obsahuje akademické pozice na univerzitách.",
+        "en": "This codelist contains positions at universities."
+    },
+    "prvek_rúian": [
+        "https://linked.cuzk.cz/resource/ruian/stat/1"
     ],
-    "en": [
-      "codelist",
-      "positions",
-      "science",
-      "research",
-      "university"
-    ]
-  },
-  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
-  "dokumentace": "https://github.com/opendata-mvcr/ciselniky",
-  "téma": [
-    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
-  ],
-  "koncept_euroVoc": [
-    "http://eurovoc.europa.eu/100151",
-    "http://eurovoc.europa.eu/2914",
-    "http://eurovoc.europa.eu/1802",
-    "http://eurovoc.europa.eu/2184",
-    "http://eurovoc.europa.eu/4151"
-  ],
-  "specifikace": [
-    "https://ofn.gov.cz/číselníky/"
-  ],
-  "kontaktní_bod": {
-    "typ": "Organizace",
-    "jméno": {
-      "cs": "Kontakt pro otevřená data"
+    "geografické_území": [],
+    "prostorové_pokrytí": [],
+    "klíčové_slovo": {
+        "cs": [
+            "číselník",
+            "pozice",
+            "výzkum",
+            "věda",
+            "vysoká škola"
+        ],
+        "en": [
+            "codelist",
+            "positions",
+            "science",
+            "research",
+            "university"
+        ]
     },
-    "e-mail": "mailto:otevrenadata@mvcr.cz"
-  },
-  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
-  "distribuce": [
-    {
-      "typ": "Distribuce",
-      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách/distribuce/1",
-      "název": {
-        "cs": "Číselník v RDF Turtle",
-        "en": "Codelist in RDF Turtle"
-      },
-      "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/akademické-pozice-na-vysokých-školách.ttl",
-      "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/akademické-pozice-na-vysokých-školách.ttl",
-      "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
-      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
-      "podmínky_užití": {
-        "typ": "Specifikace podmínek užití",
-        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
-        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
-        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
-        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-      }
-    },
-    {
-      "typ": "Distribuce",
-      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách/distribuce/2",
-      "název": {
-        "cs": "SPARQL Endpoint",
-        "en": "SPARQL Endpoint"
-      },
-      "přístupové_url": "https://data.mvcr.gov.cz/sparql",
-      "přístupová_služba": {
-        "typ": "Datová služba",
-        "přístupový_bod": "https://data.mvcr.gov.cz/sparql",
-        "popis_přístupového_bodu": "https://data.mvcr.gov.cz/sparql",
-        "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách/distribuce/2/přístupová-služba",
-        "název": {
-          "cs": "SPARQL Endpoint",
-          "en": "SPARQL Endpoint"
+    "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+    "dokumentace": "https://github.com/opendata-mvcr/ciselniky",
+    "téma": [
+        "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+    ],
+    "koncept_euroVoc": [
+        "http://eurovoc.europa.eu/100151",
+        "http://eurovoc.europa.eu/2914",
+        "http://eurovoc.europa.eu/1802",
+        "http://eurovoc.europa.eu/2184",
+        "http://eurovoc.europa.eu/4151"
+    ],
+    "specifikace": [
+        "https://ofn.gov.cz/číselníky/"
+    ],
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+            "cs": "Kontakt pro otevřená data"
         },
-        "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách"
-      },
-      "podmínky_užití": {
-        "typ": "Specifikace podmínek užití",
-        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
-        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
-        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
-        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-      }
-    }
-  ]
+        "e-mail": "mailto:otevrenadata@mvcr.cz"
+    },
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+    "distribuce": [
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách/distribuce/1",
+            "název": {
+                "cs": "Číselník v RDF Turtle",
+                "en": "Codelist in RDF Turtle"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/akademické-pozice-na-vysokých-školách.ttl",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/akademické-pozice-na-vysokých-školách.ttl",
+            "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách/distribuce/2",
+            "název": {
+                "cs": "SPARQL Endpoint",
+                "en": "SPARQL Endpoint"
+            },
+            "přístupové_url": "https://data.mvcr.gov.cz/sparql",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "přístupový_bod": "https://data.mvcr.gov.cz/sparql",
+                "popis_přístupového_bodu": "https://data.mvcr.gov.cz/sparql",
+                "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách/distribuce/2/přístupová-služba",
+                "název": {
+                    "cs": "SPARQL Endpoint",
+                    "en": "SPARQL Endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách/distribuce/3",
+            "název": {
+                "cs": "Číselník v JSON-LD",
+                "en": "Codelist in JSON-LD"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/akademické-pozice-na-vysokých-školách.jsonld",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/akademické-pozice-na-vysokých-školách.jsonld",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/akademické-pozice-na-vysokých-školách/distribuce/4",
+            "název": {
+                "cs": "Číselník v CSV",
+                "en": "Codelist in CSV"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/akademické-pozice-na-vysokých-školách.csv",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/akademické-pozice-na-vysokých-školách.csv",
+            "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+            "schéma": "https://data.mvcr.gov.cz/soubory/číselníky/akademické-pozice-na-vysokých-školách.csv-metadata.json",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        }
+    ]
 }
