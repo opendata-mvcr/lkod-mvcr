@@ -145,6 +145,82 @@
                 "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
                 "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
             }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/míra-specifikace-tématu-práce/distribuce/6",
+            "název": {
+                "cs": "Číselník v RDF TriG",
+                "en": "Codelist in RDF TriG"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/míra-specifikace-tématu-práce.trig",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/míra-specifikace-tématu-práce.trig",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/míra-specifikace-tématu-práce/distribuce/7",
+            "název": {
+                "cs": "Číselník v RDF N-Triples",
+                "en": "Codelist in RDF N-Triples"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/míra-specifikace-tématu-práce.nt",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/míra-specifikace-tématu-práce.nt",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/n-triples",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/míra-specifikace-tématu-práce/distribuce/8",
+            "název": {
+                "cs": "Číselník v RDF N-Quads",
+                "en": "Codelist in RDF N-Quads"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/míra-specifikace-tématu-práce.nq",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/míra-specifikace-tématu-práce.nq",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/n-quads",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/míra-specifikace-tématu-práce/distribuce/9",
+            "název": {
+                "cs": "Číselník v RDF/XML",
+                "en": "Codelist in RDF/XML"
+            },
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/míra-specifikace-tématu-práce.rdf",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/míra-specifikace-tématu-práce.rdf",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/rdf+xml",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_XML",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
         }
     ]
 }
