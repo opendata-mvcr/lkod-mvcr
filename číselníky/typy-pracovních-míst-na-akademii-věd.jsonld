@@ -1,14 +1,14 @@
 {
     "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-    "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd",
+    "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd",
     "typ": "Datová sada",
     "název": {
-        "cs": "Číselník pozic na Akademii věd České republiky",
-        "en": "Positions at the Czech Academy of Sciences"
+        "cs": "Číselník typů pracovních míst na Akademii věd České republiky",
+        "en": "Position types at the Czech Academy of Sciences"
     },
     "popis": {
-        "cs": "Tento číselník obsahuje pozice na Akademii věd České republiky.",
-        "en": "This codelist contains positions at the Czech Academy of Sciences."
+        "cs": "Tento číselník obsahuje typy pracovních míst na Akademii věd České republiky.",
+        "en": "This codelist contains position types at the Czech Academy of Sciences."
     },
     "prvek_rúian": [
         "https://linked.cuzk.cz/resource/ruian/stat/1"
@@ -32,7 +32,7 @@
         ]
     },
     "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
-    "dokumentace": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.html",
+    "dokumentace": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.html",
     "téma": [
         "http://publications.europa.eu/resource/authority/data-theme/GOVE"
     ],
@@ -56,13 +56,13 @@
     "distribuce": [
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/1",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/1",
             "název": {
                 "cs": "Číselník v RDF Turtle",
                 "en": "Codelist in RDF Turtle"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.ttl",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.ttl",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.ttl",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.ttl",
             "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
             "podmínky_užití": {
@@ -75,7 +75,7 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/2",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/2",
             "název": {
                 "cs": "SPARQL Endpoint"
             },
@@ -84,11 +84,11 @@
                 "typ": "Datová služba",
                 "přístupový_bod": "https://data.mvcr.gov.cz/sparql",
                 "popis_přístupového_bodu": "https://data.mvcr.gov.cz/sparql",
-                "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/2/přístupová-služba",
+                "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/2/přístupová-služba",
                 "název": {
                     "cs": "SPARQL Endpoint"
                 },
-                "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd"
+                "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd"
             },
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
@@ -100,13 +100,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/3",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/3",
             "název": {
                 "cs": "Číselník v JSON-LD",
                 "en": "Codelist in JSON-LD"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.jsonld",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.jsonld",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.jsonld",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.jsonld",
             "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
             "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
             "podmínky_užití": {
@@ -119,16 +119,16 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/4",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/4",
             "název": {
                 "cs": "Číselník v CSV",
                 "en": "Codelist in CSV"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.csv",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.csv",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.csv",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.csv",
             "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
             "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
-            "schéma": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.csv-metadata.json",
+            "schéma": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.csv-metadata.json",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
@@ -139,13 +139,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/5",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/5",
             "název": {
                 "cs": "Číselník v HTML+RDFa",
                 "en": "Codelist in HTML+RDFa"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.html",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.html",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.html",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.html",
             "typ_média": "http://www.iana.org/assignments/media-types/text/html",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDFA",
             "podmínky_užití": {
@@ -158,13 +158,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/6",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/6",
             "název": {
                 "cs": "Číselník v RDF TriG",
                 "en": "Codelist in RDF TriG"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.trig",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.trig",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.trig",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.trig",
             "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG",
             "podmínky_užití": {
@@ -177,13 +177,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/7",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/7",
             "název": {
                 "cs": "Číselník v RDF N-Triples",
                 "en": "Codelist in RDF N-Triples"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.nt",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.nt",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.nt",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.nt",
             "typ_média": "http://www.iana.org/assignments/media-types/application/n-triples",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES",
             "podmínky_užití": {
@@ -196,13 +196,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/8",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/8",
             "název": {
                 "cs": "Číselník v RDF N-Quads",
                 "en": "Codelist in RDF N-Quads"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.nq",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.nq",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.nq",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.nq",
             "typ_média": "http://www.iana.org/assignments/media-types/application/n-quads",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS",
             "podmínky_užití": {
@@ -215,13 +215,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/pozice-na-akademii-věd/distribuce/9",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-pracovních-míst-na-akademii-věd/distribuce/9",
             "název": {
                 "cs": "Číselník v RDF/XML",
                 "en": "Codelist in RDF/XML"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.rdf",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/pozice-na-akademii-věd.rdf",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.rdf",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-pracovních-míst-na-akademii-věd.rdf",
             "typ_média": "http://www.iana.org/assignments/media-types/application/rdf+xml",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_XML",
             "podmínky_užití": {
