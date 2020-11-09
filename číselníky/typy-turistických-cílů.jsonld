@@ -71,6 +71,7 @@
             "přístupové_url": "https://data.mvcr.gov.cz/sparql",
             "přístupová_služba": {
                 "typ": "Datová služba",
+                "specifikace": "https://www.w3.org/TR/sparql11-protocol/",
                 "přístupový_bod": "https://data.mvcr.gov.cz/sparql",
                 "popis_přístupového_bodu": "https://data.mvcr.gov.cz/sparql",
                 "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-turistických-cílů/distribuce/2/přístupová-služba",
