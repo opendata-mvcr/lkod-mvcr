@@ -6,7 +6,7 @@
         "cs": "Orgány veřejné moci"
     },
     "popis": {
-        "cs": "Orgány veřejné moci evidované v Registru práv a povinností ve smyslu § 51 zákona č. 111/2009 Sb. o základních registrech. Obsah je též dostupný prostřednictvím API (SPARQL endpoint) https://rpp-opendata.egon.gov.cz/odrpp/sparql ."
+        "cs": "Orgány veřejné moci evidované v Registru práv a povinností ve smyslu § 51 zákona č. 111/2009 Sb. o základních registrech."
     },
     "prvek_rúian": [
         "https://linked.cuzk.cz/resource/ruian/stat/1"
@@ -21,15 +21,26 @@
         "en": []
     },
     "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
-    "dokumentace": "https://ofn.gov.cz/registr-práv-a-povinností/orgány-veřejné-moci/2019-04-03/",
+    "dokumentace": "https://ofn.gov.cz/registr-práv-a-povinností/orgány-veřejné-moci/2021-01-11/",
     "téma": [
         "http://publications.europa.eu/resource/authority/data-theme/GOVE"
     ],
     "koncept_euroVoc": [
-        "http://eurovoc.europa.eu/3062"
+        "http://eurovoc.europa.eu/77",
+        "http://eurovoc.europa.eu/4136",
+        "http://eurovoc.europa.eu/39",
+        "http://eurovoc.europa.eu/4182",
+        "http://eurovoc.europa.eu/3062",
+        "http://eurovoc.europa.eu/2584",
+        "http://eurovoc.europa.eu/68",
+        "http://eurovoc.europa.eu/5120",
+        "http://eurovoc.europa.eu/2588",
+        "http://eurovoc.europa.eu/6897",
+        "http://eurovoc.europa.eu/4272",
+        "http://eurovoc.europa.eu/6609"
     ],
     "specifikace": [
-        "https://ofn.gov.cz/registr-práv-a-povinností/orgány-veřejné-moci/2019-04-03/"
+        "https://ofn.gov.cz/registr-práv-a-povinností/orgány-veřejné-moci/2021-01-11/"
     ],
     "kontaktní_bod": {
         "typ": "Organizace",
@@ -43,6 +54,38 @@
         {
             "typ": "Distribuce",
             "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/orgány-veřejné-moci/distribuce/1",
+            "soubor_ke_stažení": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ovm.json",
+            "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ovm.json",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/json",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/JSON",
+            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/orgány-veřejné-moci/2021-01-11/orgány-veřejné-moci.schema.json",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/orgány-veřejné-moci/distribuce/2",
+            "soubor_ke_stažení": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ovm.jsonld",
+            "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ovm.jsonld",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/orgány-veřejné-moci/2021-01-11/orgány-veřejné-moci.schema.json",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/orgány-veřejné-moci/distribuce/3",
             "název": {
                 "cs": "SPARQL Endpoint",
                 "en": "SPARQL Endpoint"
@@ -62,22 +105,6 @@
                 },
                 "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/orgány-veřejné-moci"
             },
-            "podmínky_užití": {
-                "typ": "Specifikace podmínek užití",
-                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
-                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
-                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
-                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-            }
-        },
-        {
-            "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/orgány-veřejné-moci/distribuce/2",
-            "soubor_ke_stažení": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ovm.jsonld",
-            "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/ovm.jsonld",
-            "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
-            "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
-            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/orgány-veřejné-moci/2019-04-03/orgány-veřejné-moci.schema.json",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",

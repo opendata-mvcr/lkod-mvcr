@@ -6,7 +6,7 @@
         "cs": "Převod činností v rámci působnosti"
     },
     "popis": {
-        "cs": "Převody činností mezi orgány veřejné moci v rámci jejich působností evidované v Registru práv a povinností ve smyslu § 51 zákona č. 111/2009 Sb. o základních registrech. Obsah je též dostupný prostřednictvím API (SPARQL endpoint) https://rpp-opendata.egon.gov.cz/odrpp/sparql ."
+        "cs": "Převody činností mezi orgány veřejné moci v rámci jejich působností evidované v Registru práv a povinností ve smyslu § 51 zákona č. 111/2009 Sb. o základních registrech."
     },
     "prvek_rúian": [
         "https://linked.cuzk.cz/resource/ruian/stat/1"
@@ -22,15 +22,26 @@
         "en": []
     },
     "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
-    "dokumentace": "https://ofn.gov.cz/registr-práv-a-povinností/převod-činností-v-rámci-působnosti/2019-04-03/",
+    "dokumentace": "https://ofn.gov.cz/registr-práv-a-povinností/převod-činností-v-rámci-působnosti/2021-01-11/",
     "téma": [
         "http://publications.europa.eu/resource/authority/data-theme/GOVE"
     ],
     "koncept_euroVoc": [
-        "http://eurovoc.europa.eu/2584"
+        "http://eurovoc.europa.eu/77",
+        "http://eurovoc.europa.eu/4136",
+        "http://eurovoc.europa.eu/39",
+        "http://eurovoc.europa.eu/4182",
+        "http://eurovoc.europa.eu/3062",
+        "http://eurovoc.europa.eu/2584",
+        "http://eurovoc.europa.eu/68",
+        "http://eurovoc.europa.eu/5120",
+        "http://eurovoc.europa.eu/2588",
+        "http://eurovoc.europa.eu/6897",
+        "http://eurovoc.europa.eu/4272",
+        "http://eurovoc.europa.eu/6609"
     ],
     "specifikace": [
-        "https://ofn.gov.cz/registr-práv-a-povinností/převod-činností-v-rámci-působnosti/2019-04-03/"
+        "https://ofn.gov.cz/registr-práv-a-povinností/převod-činností-v-rámci-působnosti/2021-01-11/"
     ],
     "kontaktní_bod": {
         "typ": "Organizace",
@@ -48,7 +59,7 @@
             "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/prevod_cinnosti.jsonld",
             "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
             "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
-            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/převod-činností-v-rámci-působnosti/2019-04-03/převod-činností-v-rámci-působnosti.schema.json",
+            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/převod-činností-v-rámci-působnosti/2021-01-11/převod-činností-v-rámci-působnosti.schema.json",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
@@ -64,7 +75,7 @@
             "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/prevod_cinnosti.json",
             "typ_média": "http://www.iana.org/assignments/media-types/application/json",
             "formát": "http://publications.europa.eu/resource/authority/file-type/JSON",
-            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/převod-činností-v-rámci-působnosti/2019-04-03/převod-činností-v-rámci-působnosti.schema.json",
+            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/převod-činností-v-rámci-působnosti/2021-01-11/převod-činností-v-rámci-působnosti.schema.json",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
