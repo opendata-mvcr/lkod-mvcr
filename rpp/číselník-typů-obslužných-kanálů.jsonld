@@ -1,0 +1,101 @@
+{
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/číselník-typů-obslužných-kanálů",
+    "typ": "Datová sada",
+    "název": {
+        "cs": "Číselník typů obslužných kanálů"
+    },
+    "popis": {
+        "cs": "Číselník typů obslužných kanálů použitý v Registru práv a povinností ve smyslu § 51 zákona č. 111/2009 Sb. o základních registrech."
+    },
+    "prvek_rúian": [
+        "https://linked.cuzk.cz/resource/ruian/stat/1"
+    ],
+    "geografické_území": [],
+    "prostorové_pokrytí": [],
+    "klíčové_slovo": {
+        "cs": [
+            "registr práv a povinností",
+            "typ obslužného kanálu",
+            "číselník"
+        ],
+        "en": []
+    },
+    "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+    "téma": [
+        "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+    ],
+    "koncept_euroVoc": [
+        "http://eurovoc.europa.eu/2584"
+    ],
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+            "cs": "Help desk správy základních registrů (SZR)"
+        },
+        "e-mail": "mailto:podpora@szrcr.cz"
+    },
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+    "distribuce": [
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/číselník-typů-obslužných-kanálů/distribuce/1",
+            "soubor_ke_stažení": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/cis_typ_obsluznych_kanalu.json",
+            "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/cis_typ_obsluznych_kanalu.json",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/json",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/JSON",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/číselník-typů-obslužných-kanálů/distribuce/2",
+            "soubor_ke_stažení": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/cis_typ_obsluznych_kanalu.jsonld",
+            "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/cis_typ_obsluznych_kanalu.jsonld",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/číselník-typů-obslužných-kanálů/distribuce/3",
+            "název": {
+                "cs": "SPARQL Endpoint",
+                "en": "SPARQL Endpoint"
+            },
+            "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/sparql/",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "specifikace": [
+                    "https://www.w3.org/TR/sparql11-protocol/"
+                ],
+                "přístupový_bod": "https://rpp-opendata.egon.gov.cz/odrpp/sparql/",
+                "popis_přístupového_bodu": "https://rpp-opendata.egon.gov.cz/odrpp/sparql/",
+                "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/číselník-typů-obslužných-kanálů/distribuce/3/přístupová-služba",
+                "název": {
+                    "cs": "SPARQL Endpoint",
+                    "en": "SPARQL Endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/rpp/číselník-typů-obslužných-kanálů"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            }
+        }
+    ]
+}
