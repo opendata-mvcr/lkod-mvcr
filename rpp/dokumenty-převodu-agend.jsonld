@@ -59,7 +59,7 @@
             "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/dokumenty_prevodu_agend.jsonld",
             "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
             "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
-            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/dokumenty-převodu-agend/2021-01-11/dokumenty-převodu-agend.schema.json",
+            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/dokumenty-převodu-agend/2021-01-12/dokumenty-převodu-agend.schema.json",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
@@ -75,7 +75,7 @@
             "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/dokumenty_prevodu_agend.json",
             "typ_média": "http://www.iana.org/assignments/media-types/application/json",
             "formát": "http://publications.europa.eu/resource/authority/file-type/JSON",
-            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/dokumenty-převodu-agend/2021-01-11/dokumenty-převodu-agend.schema.json",
+            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/dokumenty-převodu-agend/2021-01-12/dokumenty-převodu-agend.schema.json",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
