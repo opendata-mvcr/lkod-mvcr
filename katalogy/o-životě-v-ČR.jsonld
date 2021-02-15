@@ -1,6 +1,6 @@
 {
   "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-  "iri": "_:ds",
+  "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/aisk/o-životě-v-ČR",
   "typ": "Datová sada",
   "název": {
     "cs": "Navigace na Portálu veřejné správy - sekce O životě v ČR"
@@ -51,9 +51,11 @@
     "http://eurovoc.europa.eu/77"
   ],
   "kontaktní_bod": {},
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
   "distribuce": [
     {
       "typ": "Distribuce",
+      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/aisk/o-životě-v-ČR/distribuce/0",
       "podmínky_užití": {
         "typ": "Specifikace podmínek užití",
         "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
