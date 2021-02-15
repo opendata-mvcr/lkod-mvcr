@@ -60,7 +60,7 @@
             "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/udaje.json",
             "typ_média": "http://www.iana.org/assignments/media-types/application/json",
             "formát": "http://publications.europa.eu/resource/authority/file-type/JSON",
-            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2021-01-11/údaje.schema.json",
+            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2021-01-12/údaje.schema.json",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
@@ -76,7 +76,7 @@
             "přístupové_url": "https://rpp-opendata.egon.gov.cz/odrpp/datovasada/udaje.jsonld",
             "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
             "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
-            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2021-01-11/údaje.schema.json",
+            "schéma": "https://ofn.gov.cz/registr-práv-a-povinností/údaje/2021-01-12/údaje.schema.json",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
