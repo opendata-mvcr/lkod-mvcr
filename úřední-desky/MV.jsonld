@@ -1,0 +1,69 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/úřední-desky/MV",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Datová sada Úřední desky MV"
+  },
+  "popis": {
+    "cs": "Datová sada obsahuje základní informace pro jednotlivé položky (články) na úřední desce Ministerstva vnitra. Pro každou položku je obsažen název, číslo jednací, datum začátku a konce platnosti a informace o přiložených souborech, pokud daná položka tyto informace obsahuje. Vlastní text článku a text příloh není obsažen."
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "MV",
+      "úřední deska",
+      "Ministerstvo vnitra",
+      "výběrová řízení",
+      "veřejné vyhlášky"
+    ],
+    "en": []
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "koncept_euroVoc": [],
+  "specifikace": [
+    "https://ofn.gov.cz/úřední-desky/2021-07-20/"
+  ],
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Robert Šindler"
+    },
+    "e-mail": "mailto:webmaster@mvcr.cz"
+  },
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/úřední-desky/MV/distribuce/0",
+      "název": {
+        "cs": "Datová sada Úřední desky MV"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://opendata.mvcr.cz/api/boards?type=mv",
+      "přístupová_služba": {
+        "typ": "Datová služba",
+        "přístupový_bod": "https://opendata.mvcr.cz/api/boards?type=mv",
+        "popis_přístupového_bodu": "https://opendata-test.mvcr.cz/api/docs",
+        "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/úřední-desky/MV/distribuce/0/přístupová-služba",
+        "název": {
+          "cs": "Datová sada Úřední desky MV"
+        },
+        "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/úřední-desky/MV"
+      }
+    }
+  ]
+}
