@@ -31,7 +31,8 @@
     ],
     "koncept_euroVoc": [],
     "specifikace": [
-        "https://ofn.gov.cz/číselníky/",
+        "https://ofn.gov.cz/číselníky/", "https://ofn.gov.cz/číselníky/2022-02-08/",
+        "https://ofn.gov.cz/číselníky/2022-02-08/",
         "https://ofn.gov.cz/propojená-data/"
     ],
     "kontaktní_bod": {
@@ -72,7 +73,7 @@
             "přístupové_url": "https://data.mvcr.gov.cz/sparql",
             "přístupová_služba": {
                 "typ": "Datová služba",
-                "specifikace": [ 
+                "specifikace": [
                     "https://www.w3.org/TR/sparql11-protocol/",
                     "https://www.w3.org/TR/2013/REC-sparql11-protocol-20130321/"
                 ],
