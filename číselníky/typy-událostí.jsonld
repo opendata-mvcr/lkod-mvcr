@@ -29,6 +29,10 @@
         "http://publications.europa.eu/resource/authority/data-theme/EDUC"
     ],
     "koncept_euroVoc": [],
+    "specifikace": [
+        "https://ofn.gov.cz/číselníky/",
+        "https://ofn.gov.cz/číselníky/2022-02-08/"
+    ],
     "kontaktní_bod": {
         "typ": "Organizace",
         "jméno": {
