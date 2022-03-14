@@ -1,0 +1,62 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/nkod",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Národní katalog otevřených dat",
+    "en": "Czech National Open Data Catalog"
+  },
+  "popis": {
+    "cs": "Tato datová série obsahuje data z Národního katalogu otevřených dat.",
+    "en": "This dataset series contains data from the Czech National Open Data Catalog (NODC-CZ)."
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [
+    "http://publications.europa.eu/resource/authority/country/CZE"
+  ],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "národní katalog",
+      "nkod",
+      "datové sady",
+      "metadata",
+      "datový katalog",
+      "otevřená data"
+    ],
+    "en": [
+      "national catalog",
+      "data catalog",
+      "nodc",
+      "datasets",
+      "metadata",
+      "open data"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
+  "dokumentace": "https://data.gov.cz",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/c_5ea6e5c4",
+    "http://eurovoc.europa.eu/5274",
+    "http://eurovoc.europa.eu/c_40f54e0c"
+  ],
+  "specifikace": [
+    "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/",
+    "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210",
+    "https://www.w3.org/TR/vocab-dcat-2/",
+    "https://www.w3.org/TR/vocab-dqv/"
+  ],
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Otevřená data MV ČR"
+    },
+    "e-mail": "mailto:otevrenadata@mvcr.cz"
+  },
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064"
+}

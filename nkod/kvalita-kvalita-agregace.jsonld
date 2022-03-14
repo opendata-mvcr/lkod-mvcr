@@ -1,0 +1,111 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/kvalita-kvalita-agregace",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Indikátory kvality metadat - agregované indikátory - Národní katalog otevřených dat",
+    "en": "Metadata quality indicators - aggregated indicators - Czech National Open Data Catalog"
+  },
+  "popis": {
+    "cs": "Tato datová sada obsahuje výsledky měření kvality metadat datových sad registrovaných v Národním katalogu otevřených dat (NKOD) agregovaných na úroveň datových sad, poskytovatelů a celého NKOD.",
+    "en": "This dataset contains measurements of metadata quality of datasets registered in the Czech National Open Data Catalog (NODC-CZ) aggregated per dataset, publisher and the entire NODC-CZ."
+  },
+  "je_součástí": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/nkod",
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [
+    "http://publications.europa.eu/resource/authority/country/CZE"
+  ],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "národní katalog",
+      "nkod",
+      "datový katalog",
+      "otevřená data",
+      "dostupnost",
+      "datová kvalita",
+      "metadata"
+    ],
+    "en": [
+      "national catalog",
+      "data catalog",
+      "nodc",
+      "open data",
+      "availability",
+      "data quality",
+      "metadata"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
+  "dokumentace": "https://data.gov.cz/datová-kvalita/",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/c_5ea6e5c4",
+    "http://eurovoc.europa.eu/5274",
+    "http://eurovoc.europa.eu/c_40f54e0c"
+  ],
+  "specifikace": [
+    "https://www.w3.org/TR/vocab-dqv/"
+  ],
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Otevřená data MV ČR"
+    },
+    "e-mail": "mailto:otevrenadata@mvcr.cz"
+  },
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/kvalita-kvalita-agregace/distribuce/0",
+      "název": {
+        "cs": "Soubor v RDF Turtle",
+        "en": "RDF Turtle file"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.gov.cz/soubor/kvalita/kvalita.ttl",
+      "přístupové_url": "https://data.gov.cz/soubor/kvalita/kvalita.ttl",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/kvalita-kvalita-agregace/distribuce/1",
+      "název": {
+        "cs": "Přístupový bod SPARQL",
+        "en": "SPARQL endpoint"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://data.gov.cz/sparql",
+      "přístupová_služba": {
+        "typ": "Datová služba",
+        "přístupový_bod": "https://data.gov.cz/sparql",
+        "popis_přístupového_bodu": "https://data.gov.cz/sparql",
+        "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/kvalita-kvalita-agregace/distribuce/1/přístupová-služba",
+        "název": {
+          "cs": "Přístupový bod SPARQL",
+          "en": "SPARQL endpoint"
+        },
+        "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/kvalita-kvalita-agregace",
+        "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+      }
+    }
+  ]
+}

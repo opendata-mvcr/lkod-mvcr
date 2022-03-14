@@ -1,0 +1,84 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/nkod-datové-sady",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Datové sady - Národní katalog otevřených dat",
+    "en": "Datasets - Czech National Open Data Catalog"
+  },
+  "popis": {
+    "cs": "Tato datová sada obsahuje základní informace v datovém formátu CSV o datových sadách obsažených v Národním katalogu otevřených dat (NKOD).",
+    "en": "This dataset contains basic metadata in the CSV data format about datasets contained in the Czech National Open Data Catalog (NODC-CZ)."
+  },
+  "je_součástí": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/nkod",
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [
+    "http://publications.europa.eu/resource/authority/country/CZE"
+  ],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "národní katalog",
+      "nkod",
+      "datové sady",
+      "metadata",
+      "datový katalog",
+      "otevřená data"
+    ],
+    "en": [
+      "national catalog",
+      "data catalog",
+      "nodc",
+      "datasets",
+      "metadata",
+      "open data"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
+  "dokumentace": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/c_5ea6e5c4",
+    "http://eurovoc.europa.eu/5274",
+    "http://eurovoc.europa.eu/c_40f54e0c"
+  ],
+  "specifikace": [
+    "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/",
+    "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210",
+    "https://www.w3.org/TR/vocab-dcat-2/"
+  ],
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Otevřená data MV ČR"
+    },
+    "e-mail": "mailto:otevrenadata@mvcr.cz"
+  },
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/nkod/nkod-datové-sady/distribuce/0",
+      "název": {
+        "cs": "Soubor v CSV",
+        "en": "CSV file"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.gov.cz/soubor/datové-sady.csv",
+      "přístupové_url": "https://data.gov.cz/soubor/datové-sady.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+      "schéma": "https://data.gov.cz/soubor/datové-sady.csv-metadata.json"
+    }
+  ]
+}
