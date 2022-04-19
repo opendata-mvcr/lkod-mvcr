@@ -1,6 +1,6 @@
 {
     "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-    "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů",
+    "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu",
     "typ": "Datová sada",
     "název": {
         "cs": "Číselník typů tříděného odpadu"
@@ -25,7 +25,7 @@
         ]
     },
     "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/ANNUAL",
-    "dokumentace": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.html",
+    "dokumentace": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.html",
     "téma": [
         "http://publications.europa.eu/resource/authority/data-theme/ENVI"
     ],
@@ -45,13 +45,13 @@
     "distribuce": [
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/1",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/1",
             "název": {
                 "cs": "Číselník v RDF Turtle",
                 "en": "Codelist in RDF Turtle"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.ttl",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.ttl",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.ttl",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.ttl",
             "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
             "podmínky_užití": {
@@ -64,7 +64,7 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/2",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/2",
             "název": {
                 "cs": "SPARQL Endpoint",
                 "en": "SPARQL Endpoint"
@@ -77,12 +77,12 @@
                 ],
                 "přístupový_bod": "https://data.mvcr.gov.cz/sparql",
                 "popis_přístupového_bodu": "https://data.mvcr.gov.cz/sparql",
-                "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/2/přístupová-služba",
+                "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/2/přístupová-služba",
                 "název": {
                     "cs": "SPARQL Endpoint",
                     "en": "SPARQL Endpoint"
                 },
-                "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů"
+                "poskytuje_datovou_sadu": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu"
             },
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
@@ -94,13 +94,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/3",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/3",
             "název": {
                 "cs": "Číselník v JSON-LD",
                 "en": "Codelist in JSON-LD"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.jsonld",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.jsonld",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.jsonld",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.jsonld",
             "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
             "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
             "schéma": "https://ofn.gov.cz/číselníky/2022-02-08/schémata/json-ld/číselník.json",
@@ -114,16 +114,16 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/4",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/4",
             "název": {
                 "cs": "Číselník v CSV",
                 "en": "Codelist in CSV"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.csv",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.csv",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.csv",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.csv",
             "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
             "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
-            "schéma": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.csv-metadata.json",
+            "schéma": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.csv-metadata.json",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
@@ -134,13 +134,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/5",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/5",
             "název": {
                 "cs": "Číselník v HTML+RDFa",
                 "en": "Codelist in HTML+RDFa"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.html",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.html",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.html",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.html",
             "typ_média": "http://www.iana.org/assignments/media-types/text/html",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDFA",
             "podmínky_užití": {
@@ -153,13 +153,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/6",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/6",
             "název": {
                 "cs": "Číselník v RDF TriG",
                 "en": "Codelist in RDF TriG"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.trig",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.trig",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.trig",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.trig",
             "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG",
             "podmínky_užití": {
@@ -172,13 +172,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/7",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/7",
             "název": {
                 "cs": "Číselník v RDF N-Triples",
                 "en": "Codelist in RDF N-Triples"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.nt",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.nt",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.nt",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.nt",
             "typ_média": "http://www.iana.org/assignments/media-types/application/n-triples",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES",
             "podmínky_užití": {
@@ -191,13 +191,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/8",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/8",
             "název": {
                 "cs": "Číselník v RDF N-Quads",
                 "en": "Codelist in RDF N-Quads"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.nq",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.nq",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.nq",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.nq",
             "typ_média": "http://www.iana.org/assignments/media-types/application/n-quads",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS",
             "podmínky_užití": {
@@ -210,13 +210,13 @@
         },
         {
             "typ": "Distribuce",
-            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděných-odpadů/distribuce/9",
+            "iri": "https://data.mvcr.gov.cz/zdroj/datové-sady/číselníky/typy-tříděného-odpadu/distribuce/9",
             "název": {
                 "cs": "Číselník v RDF/XML",
                 "en": "Codelist in RDF/XML"
             },
-            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.rdf",
-            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděných-odpadů.rdf",
+            "soubor_ke_stažení": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.rdf",
+            "přístupové_url": "https://data.mvcr.gov.cz/soubory/číselníky/typy-tříděného-odpadu.rdf",
             "typ_média": "http://www.iana.org/assignments/media-types/application/rdf+xml",
             "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_XML",
             "podmínky_užití": {
